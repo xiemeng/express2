@@ -18,10 +18,9 @@ connection.connect();
 //   console.log('The xiemeng_ceshi is: ', rows);
 // });
 // 数据库删除
-connection.query('DELETE FROM xiemeng_ceshi where id=?', [8], function (err, rows, fields) {
-  if (err) throw err;
-  console.log('The xiemeng_ceshi is: ', rows);
-});
+// connection.query('DELETE FROM xiemeng_ceshi where id=?', [8], function (err, rows, fields) {
+//   if (err) throw err;
+// });
 // 数据库查询
 // connection.query('SELECT * FROM xiemeng_ceshi', function (err, rows, fields) {
 //   if (err) throw err;

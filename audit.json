@@ -1,0 +1,21 @@
+{
+    "keepSettings": {
+        "type": 2,
+        "amount": 10
+    },
+    "auditFilename": "audit.json",
+    "hashType": "md5",
+    "extension": "",
+    "files": [
+        {
+            "date": 1675847325377,
+            "name": "D:\\羊毛\\express2\\log\\access-20230208.log",
+            "hash": "f0f2809a334e9889df9ba68a4da8ee51"
+        },
+        {
+            "date": 1675847486201,
+            "name": "D:\\羊毛\\express2\\logger\\access-20230208.log",
+            "hash": "a3efddd0a78f2e39b97f828053a2dcb7"
+        }
+    ]
+}

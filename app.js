@@ -2,10 +2,9 @@ var createError = require('http-errors');
 var express = require('express');
 var path = require('path');
 var cookieParser = require('cookie-parser');
-var logger = require('morgan');
 const cors = require('cors')
 
-var indexRouter = require('./routes/index');
+
 var usersRouter = require('./routes/users');
 
 
@@ -18,6 +17,8 @@ app.use(cors())
 require('./api/index')
 // 引入数据库
 require('./mysql')
+// 引入日志
+require('./log')
 // 引入history代理 解决刷新404的问题
 const history = require('connect-history-api-fallback'); // 引入history插件
 
@@ -25,7 +26,6 @@ const history = require('connect-history-api-fallback'); // 引入history插件
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'jade');
 
-app.use(logger('dev'));
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());

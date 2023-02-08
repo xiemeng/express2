@@ -5,3 +5,4 @@ api: 接口文件
 public: 静态资源
 2： 需要安装 navicat 包，查看数据库
 
+3： 日志教程  https://www.gxlcms.com/JavaScript-248036.html

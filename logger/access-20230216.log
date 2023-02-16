@@ -1,0 +1,6 @@
+::1 - GET / HTTP/1.1 404 968 - 32.069 ms
+::1 - GET /stylesheets/style.css HTTP/1.1 304 - - 1.492 ms
+::1 - GET / HTTP/1.1 404 968 - 6.152 ms
+::1 - GET /stylesheets/style.css HTTP/1.1 304 - - 3.929 ms
+::1 - GET / HTTP/1.1 404 968 - 5.858 ms
+::1 - GET /stylesheets/style.css HTTP/1.1 304 - - 0.425 ms

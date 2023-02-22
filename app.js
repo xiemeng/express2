@@ -35,7 +35,7 @@ app.use('/users', usersRouter);
 
 // history 要放在路由和接口下面，不然前端路由会覆盖后端路由
 app.use(history());
-app.use(express.static(path.join(__dirname, 'public')));
+app.use(express.static(path.join(__dirname, 'public/dist')));
 
 
 // catch 404 and forward to error handler
